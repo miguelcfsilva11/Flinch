@@ -1,0 +1,25 @@
+# Rust/Cargo
+/target/
+**/*.rs.bk
+Cargo.lock
+
+# Generated files by rustdoc
+doc/
+
+# Backup and temporary files
+*.tmp
+*.swp
+*.swo
+*~
+*.bak
+
+# IDEs / Editors
+.vscode/
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
