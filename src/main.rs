@@ -6,8 +6,10 @@ struct Row {
     // Row fields
 }
 
-struct Cell {
-    // Cell fields
+// make cell generic
+
+struct Cell<T> {
+    value: T,
 }
 
 impl Table {
